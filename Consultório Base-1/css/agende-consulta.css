@@ -1,0 +1,134 @@
+*{	
+	margin:auto;
+	padding:auto;
+}
+
+body{
+	font-family:'Open Sans', sans-serif;
+	margin-right:0px ;
+	background-image: url("../imagens/Imagem-topo.jpg");
+	background-size: cover;
+	background-position:60% 40% ;
+	background-repeat:no-repeat;
+}
+
+.Menu{
+	width:100%;
+	height:80px;
+	left:0px;
+	background-image:linear-gradient(to bottom, purple,black);
+	position:fixed;
+	box-shadow: 5px 5px 5px black;
+	z-index:2;
+}
+.Menu h1{
+	position: absolute;
+	text-align:center ;
+	left:200px;
+	top:20px;
+	color:white;
+	font-size:35px ;
+	font-family:'calibri';
+}
+.Menu li{
+	transition:0.5s;
+	position: relative;
+	display:inline-block;
+	float:right;
+	bottom:78px;
+	padding-left:20px;
+	padding-top:10px;
+	margin-right:10px;
+	color:white;
+	font-weight:bold;
+}
+.Menu a{
+	text-decoration:none ;
+	text-shadow:10px 0px 20px black;
+
+}
+.Menu li:hover{
+	background-color: violet;
+	padding:5px;
+	border-radius:5px;
+	height:40px;
+	transition:0.5s ;
+}
+
+#logomarca{
+	position:relative;
+	bottom:10px;
+	right:50px;
+}
+.formulário{
+	position:relative;
+	background-color:rgba(128,128,128,0.5);
+	top:150px;
+	clear: both;
+}
+.formulário label{
+	padding-top: 20px;
+	font-size:20px;
+}
+.form-align{
+	display:table-cell;
+}
+
+.Contato{
+	position:relative;
+	left:20px; 
+	top:250px;
+	text-align: center;
+}
+.Contato h3{
+	padding-bottom:20px;
+	color:white;
+}
+.Contato a{
+	position:relative;
+	left:98px; 
+}
+footer{
+	top :700px;
+	position: relative;
+	height:1200px;
+	background-image:linear-gradient(to bottom, purple,black);
+	margin-right:0px
+	width:100%;
+}
+.Contato img{
+	position: relative;
+	height:40px;
+	padding:0px 0px 0px 20px;
+	right:110px;
+}
+.container{
+	min-height: calc(20vh - 70px);
+	height:0px;
+}
+.copyright{
+	position: relative;
+	top:40px;
+	text-align: center;
+	color:white;
+	left:20px;
+}
+.btn-enviar{
+	background-color:purple;
+	border:none;
+	color:white;
+}
+#frase-top{
+	position:relative;
+	top:120px;
+}
+.subContato{
+	padding-top: 40px;
+	position: relative;
+}
+#NomeCompleto{
+	width:50%;
+}
+#Bairro{
+	width:40%;
+}

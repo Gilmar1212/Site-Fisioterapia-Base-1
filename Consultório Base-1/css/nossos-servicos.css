@@ -1,0 +1,242 @@
+*{	
+	margin:auto;
+	padding:auto;
+}
+
+body{
+	font-family:'Open Sans', sans-serif;
+	margin-right:0px;
+}
+
+.Menu{
+	width:100%;
+	height:80px;
+	left:0px;
+	background-image:linear-gradient(to bottom, purple,black);
+	position:fixed;
+	box-shadow: 5px 5px 5px black;
+	z-index:2;
+}
+.Menu h1{
+	position: absolute;
+	text-align:center ;
+	left:200px;
+	top:20px;
+	color:white;
+	font-size:35px ;
+	font-family:'calibri';
+}
+.Menu li{
+	transition:0.5s;
+	position: relative;
+	display:inline-block;
+	float:right;
+	bottom:78px;
+	padding-left:20px;
+	padding-top:10px;
+	margin-right:10px;
+	color:white;
+	font-weight:bold;
+}
+.Menu a{
+	text-decoration:none ;
+	text-shadow:10px 0px 20px black;
+
+}
+.Menu li:hover{
+	background-color: violet;
+	padding:5px;
+	border-radius:5px;
+	height:40px;
+	transition:0.5s ;
+}
+
+#logomarca{
+	position:relative;
+	bottom:10px;
+	right:50px;
+}
+.Contato{
+	position:relative;
+	left:20px; 
+	top:250px;
+	text-align: center;
+}
+.Contato h3{
+	padding-bottom:20px;
+	color:white;
+}
+.Contato a{
+	position:relative;
+	left:98px; 
+}
+footer{
+	top :1400px;
+	position: relative;
+	height:1200px;
+	background-image:linear-gradient(to bottom, purple,black);
+	margin-right:0px
+	width:100%;
+}
+.Contato img{
+	position: relative;
+	height:40px;
+	padding:0px 0px 0px 20px;
+	right:110px;
+}
+.container{
+	min-height: calc(20vh - 70px);
+	height:0px;
+}
+.copyright{
+	position: relative;
+	top:40px;
+	text-align: center;
+	color:white;
+	left:20px;
+}
+
+#frase-top{
+	position:relative;
+	top:120px;
+}
+.subContato{
+	padding-top: 40px;
+	position: relative;
+}
+#img1{
+	top:100px ;
+	background-image:url("../imagens/idoso.jpg");
+	background-position:50% 50%;
+	opacity:0;
+	margin:0px;
+	
+}
+#img2{
+	position:absolute;
+	background-image:url("../imagens/Ortopedista-hd.jpg");
+	background-position:50% 50%;
+	background-size:cover;
+	opacity:0;
+	margin:0px;
+	
+}
+#img3{
+	position:absolute;
+	background-image:url("../imagens/Traumatologia.jpg");
+	background-position:50% 50% ;
+	background-size:cover;
+	opacity:0;
+	margin:0px;
+}
+#img4{
+	position:absolute;
+	background-image:url("../imagens/fisioterapia-geral.jpeg");
+	background-position:50% 50% ;
+	background-size:cover;
+	opacity:0;
+	margin:0px;
+}
+#img1 p{
+	top:60px;
+	position: relative;
+	font-weight:bold;
+	font-size:20px;
+	color:darkblue;
+}
+#img2 p{
+	top:60px;
+	position: relative;
+	font-weight:bold;
+	font-size:20px;
+	color:darkblue;
+}
+#img3 p{
+	top:60px;
+	position: relative;
+	font-weight:bold;
+	font-size:20px;
+	color:white;
+}
+#img4 p {
+	top:60px;
+	position: relative;
+	font-weight:bold;
+	font-size:20px;
+	color:darkblue;
+}
+#lista-fisioGeral{
+	top:60px;
+	position: relative;
+	font-weight:bold;
+	font-size:20px;
+	color:darkblue;
+}
+.btn-anime{
+	float:center;
+	font-weight:bold ;	
+	color:white;
+	border-radius:10px;
+	height:100px;
+	border:none;
+	background-color:#9966CC;
+}
+.container-fluid{
+	height:200px;
+}
+#btn-2{
+	position:relative;
+	bottom:700px;
+	left:140px;
+}
+#btn-3{
+	position:relative;
+	bottom:700px;
+	left:140px;
+}
+#btn-4{
+	position:relative;
+	bottom:700px;
+	left:140px;
+}
+
+.anima-btn{
+	opacity:1;
+	transition:0.5s;
+}
+.wrapper {
+
+	position: relative;
+	height:600px;
+	width:100%;
+}
+.wrapper button{
+
+	display:inline-block;
+	position: relative;	
+}
+.wrapper div{
+
+	position: relative;
+	top:200px;
+	width:100%;
+	height:600px;
+}
+[data-anime]{
+	opacity:0;
+	transition:0.7s;
+}
+[data-anime="right"]{
+	transform:translate3d(50px,0px,0px);
+}
+[data-anime="top"]{
+	transform:translate3d(0px,-50px,0px);
+}
+[data-anime].animate{
+	opacity:1;
+	transform:translate3d(0px,0px,0px);
+}
+.Importancia-text {
+	margin:0 0 60px 0;
+
+}
